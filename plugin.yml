@@ -1,0 +1,26 @@
+main: com.bigbluu722.MoonStormInfo.MSInfo
+version: 0.1.0
+name: MSInfo
+
+commands:
+  msi:
+    description: Provides a list of commands/info.
+    usage: /msi
+  msi discord:
+    description: Sends the player a invite to our Discord.
+    usage: /msi discord
+  msi donate:
+    description: Sends the player a link to our donation store.
+    usage: /msi donate
+  msi forum: 
+    description: Sends the player a link to our forums.
+    usage: /msi forum
+  msi ranks:
+    description: Sends the player a list of ranks and what they do.
+    usage: /msi ranks
+  msi staff:
+    description: Sends the player a link to apply for staff.
+    usage: /msi staff
+  msi vote: 
+    description: Sends the player a list of voting sites.
+    usage: /msi vote

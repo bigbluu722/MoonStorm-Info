@@ -6,6 +6,9 @@ commands:
   msi:
     description: Provides a list of commands/info.
     usage: /msi
+  msi changelog:
+    description: Find the latest updates to the server and modpack here.
+    usage: /msi changelog
   msi discord:
     description: Sends the player a invite to our Discord.
     usage: /msi discord

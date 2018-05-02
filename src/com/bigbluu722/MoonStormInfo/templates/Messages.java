@@ -14,15 +14,15 @@ public class Messages {
 	
 	public static final String PREFIX = ChatColor.GOLD + "[" + ChatColor.BLUE + "Moon" + ChatColor.GREEN + "Storm " + ChatColor.YELLOW + "Info" + ChatColor.GOLD + "] ";
 
-	public static final String VERSION = ChatColor.GREEN + "Version " + ChatColor.GOLD + version + ChatColor.GREEN + " by bigbluu722" + ChatColor.WHITE + "\n";
+	public static final String VERSION = ChatColor.GREEN + "Version " + ChatColor.GOLD + version + ChatColor.GREEN + " by bigbluu722 \n" + ChatColor.WHITE;
 	
 	public static final String consoleTooManyArgs = PREFIX + "";
 	
 	public static final String consoleHelp = PREFIX + "";
 	
 	public static void commandsHelp(CommandSender player) {
-		new FancyMessage(PREFIX)
-		.then("How the fuck did you do this right")
+		new FancyMessage(PREFIX + VERSION)
+		.then("How the fuck did I do this right")
 		
 		.send(player);
 	}
@@ -36,7 +36,6 @@ public class Messages {
 		  .suggest("/aci")
 		.then(".")
 		  .color(RED)
-		  .tooltip("testing")
 		.send(player);
 	}
 	

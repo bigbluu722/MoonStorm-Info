@@ -1,20 +1,22 @@
 main: com.bigbluu722.MoonStormInfo.MSInfo
 version: 0.1.0
 name: MSInfo
+author: bigbluu722
+website: https://moonstorm.info/
 
 commands:
   msi:
     description: Provides a list of commands/info.
     usage: /msi
+  msi banneditems:
+    description: Provides a list of banned items.
+    usage: /msi banneditems
   msi changelog:
     description: Find the latest updates to the server and modpack here.
     usage: /msi changelog
   msi discord:
     description: Sends the player a invite to our Discord.
     usage: /msi discord
-  msi donate:
-    description: Sends the player a link to our donation store.
-    usage: /msi donate
   msi forum: 
     description: Sends the player a link to our forums.
     usage: /msi forum

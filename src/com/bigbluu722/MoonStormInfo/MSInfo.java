@@ -14,10 +14,9 @@ public class MSInfo extends JavaPlugin {
 		PluginDescriptionFile pdfFile = getDescription();
 		Logger logger = getLogger();
 		
-		getCommand("aci").setExecutor(new CmdMsi());
+		getCommand("msi").setExecutor(new CmdMsi());
 
-		logger.info(pdfFile.getName() + " has been enabled! [v" + pdfFile.getVersion()
-				+ "]");
+		logger.info(pdfFile.getName() + " has been enabled! [v" + pdfFile.getVersion() + "]");
 		
 		Config.load();
 	}
@@ -26,7 +25,6 @@ public class MSInfo extends JavaPlugin {
 		PluginDescriptionFile pdfFile = getDescription();
 		Logger logger = getLogger();
 
-		logger.info(pdfFile.getName() + " has been disabled! [v" + pdfFile.getVersion()
-				+ "]");
+		logger.info(pdfFile.getName() + " has been disabled! [v" + pdfFile.getVersion() + "]");
 	}
 }

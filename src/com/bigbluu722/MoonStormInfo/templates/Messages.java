@@ -22,7 +22,8 @@ public class Messages {
 	
 	public static void commandsHelp(CommandSender player) {
 		new FancyMessage(PREFIX + VERSION + "\n")
-		.then("How the fuck did I do this right")
+		.send(player);
+		new FancyMessage("testing 420 blaze it")
 		.send(player);
 	}
 	

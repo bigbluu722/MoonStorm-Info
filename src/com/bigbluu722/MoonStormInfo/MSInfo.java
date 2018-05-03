@@ -9,11 +9,10 @@ import com.bigbluu722.MoonStormInfo.commands.CmdMsi;
 
 
 public class MSInfo extends JavaPlugin {
+	PluginDescriptionFile pdfFile = getDescription();
+	Logger logger = getLogger();
 
-	public void onEnable() {
-		PluginDescriptionFile pdfFile = getDescription();
-		Logger logger = getLogger();
-		
+	public void onEnable() {		
 		getCommand("msi").setExecutor(new CmdMsi());
 
 		logger.info(pdfFile.getName() + " has been enabled! [v" + pdfFile.getVersion() + "]");
@@ -22,9 +21,6 @@ public class MSInfo extends JavaPlugin {
 	}
 
 	public void onDisable() {
-		PluginDescriptionFile pdfFile = getDescription();
-		Logger logger = getLogger();
-
 		logger.info(pdfFile.getName() + " has been disabled! [v" + pdfFile.getVersion() + "]");
 	}
 }

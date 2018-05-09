@@ -9,7 +9,7 @@ public class SubVote {
 		if(args.length > 1) {
 			Messages.tooManyArgs(sender);
 		} else {
-			
+			Messages.voteLinks(sender);
 		}
 	}
 }

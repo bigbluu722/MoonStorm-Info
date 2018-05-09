@@ -9,7 +9,7 @@ public class SubRanks {
 		if(args.length > 1) {
 			Messages.tooManyArgs(sender);
 		} else {
-			
+			Messages.rankList(sender);
 		}
 	}
 }

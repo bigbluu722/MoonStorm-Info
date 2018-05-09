@@ -24,7 +24,7 @@ public class Messages {
 		  .color(GOLD)
 		  .suggest("/msi")
 		.then(" - ")
-		.then("")
+		.then("Displays this menu.")
 		  .color(GREEN)
 		.send(player);
 		new FancyMessage("» ")
@@ -199,6 +199,7 @@ public class Messages {
 	public static void voteLinks(CommandSender player) {
 		new FancyMessage(PREFIX)
 		.then("Vote for our server! Links below:")
+		  .color(GREEN)
 		.send(player);
 		new FancyMessage("» ")
 		  .color(GOLD)

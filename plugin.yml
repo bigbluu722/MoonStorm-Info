@@ -8,9 +8,9 @@ commands:
   msi:
     description: Provides a list of commands/info.
     usage: /msi
-  msi banneditems:
+  banneditems:
     description: Provides a list of banned items.
-    usage: /msi banneditems
+    usage: /banneditems
   msi changelog:
     description: Find the latest updates to the server and modpack here.
     usage: /msi changelog

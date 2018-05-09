@@ -1,5 +1,15 @@
 package com.bigbluu722.MoonStormInfo.commands.subcommands;
 
-public class SubDiscord {
+import org.bukkit.command.CommandSender;
 
+import com.bigbluu722.MoonStormInfo.templates.Messages;
+
+public class SubDiscord {
+	public static final void handle(CommandSender sender, String[] args) {
+		if(args.length > 1) {
+			Messages.tooManyArgs(sender);
+		} else {
+			Messages.discordLink(sender);
+		}
+	}
 }

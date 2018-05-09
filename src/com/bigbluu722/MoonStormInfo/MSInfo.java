@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 import com.bigbluu722.MoonStormInfo.config.Config;
+import com.bigbluu722.MoonStormInfo.commands.CmdBanneditems;
 import com.bigbluu722.MoonStormInfo.commands.CmdMsi;
 
 
@@ -14,6 +15,7 @@ public class MSInfo extends JavaPlugin {
 
 	public void onEnable() {		
 		getCommand("msi").setExecutor(new CmdMsi());
+		getCommand("banneditems").setExecutor(new CmdBanneditems());
 
 		logger.info(pdfFile.getName() + " has been enabled! [v" + pdfFile.getVersion() + "]");
 		
